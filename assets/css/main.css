@@ -605,3 +605,28 @@ ul li {
 .img-responsive.center {
   margin: 0 auto;
 }
+
+
+.grey {
+  color: #666666;
+}
+
+.black {
+  color: #111;
+}
+
+.bg-light-blue {
+  background-color: #41C4F9;
+}
+
+.bg-dark-blue {
+  background-color: #308AF6;
+}
+
+.bg-light-green {
+  background-color: #00E7B5;
+}
+
+.bg-dark-green {
+  background-color: #00BDA4;
+}
