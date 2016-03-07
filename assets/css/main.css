@@ -72,7 +72,7 @@ ul li {
   display: inline-block;
   height: 32px;
   width: 32px;
-  color: #4e4e4e;
+  color: #fff;
 }
 .social-block li a i {
   font-size: 1.5em;
@@ -406,19 +406,14 @@ ul li {
  */
 .speaker {
   text-align: center;
-  color: #313131;
-  text-transform: uppercase;
-  margin: 25px 0;
+  color: #fff;
 }
 .speaker h4 {
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin: 0;
+  text-align: left;
 }
 .speaker p {
   margin-bottom: 5px;
-}
-.speaker img:hover {
-  opacity: .7;
 }
 
 /*
@@ -435,21 +430,113 @@ ul li {
  * 6.6 Section: Schedule
  */
 .schedule-box {
+  margin: 0 0 60px;
+}
+.schedule-left {
   position: relative;
-  background-color: #000;
+  background-color: #308AF6;
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 15px;
   margin: 25px 0 0;
 }
-.schedule-box::before {
-  content: '';
+
+@media(min-width: 768px) {
+  .schedule-right {
+    padding-left: 45px;
+  }
+}
+
+.schedule-time {
+  color: #2468B9;
+  font-size: 25px;
+  font-family: 'Fugaz One', sans-serif;
   position: absolute;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
-  border: 1px solid #fff;
+  top: -20px;
+  left: 0px;
+  right: 0px;
+}
+.schedule-speaker_photo {
+  -webkit-filter: grayscale(100%) contrast(200%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%) contrast(200%);
+  opacity: 0.25;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+.schedule-speaker_name {
+  display: inline-block;
+  color: #2468B9;
+  font-family: 'Fugaz One', sans-serif;
+  text-transform: uppercase;
+  margin: 16px 0 0;
+  font-weight: normal;
+}
+.schedule-speaker_social {
+  display: inline-block;
+  margin: 0 8px;
+}
+.schedule-speaker_social li {
+  margin: 0;
+}
+.schedule-speaker_social li a {
+  height: auto;
+  width: auto;
+  color: #ccc;
+  padding: 0 16px;
+}
+.schedule-speaker_social li a:hover {
+  color: #1C5393;
+}
+.schedule-speaker_social li a i {
+  font-size: 16px;
+}
+.schedule-title {
+  color: #1C5393;
+  font-size: 25px;
+  font-style: italic;
+  margin: 16px 0;
+}
+.schedule-description {
+  font-size: 14px;
+}
+.schedule-description p {
+  margin: 0 0 10px;
+}
+
+
+.schedule-left {
+  position: relative;
+  background-color: #308AF6;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 25px 0 0;
+}
+
+@media(min-width: 768px) {
+  .schedule-right {
+    padding-left: 45px;
+  }
+}
+
+.schedule-item-2 .schedule-left {
+  background-color: #00BDA4;
+}
+.schedule-item-2 .schedule-time {
+  color: #008E7B;
+}
+.schedule-item-2 .schedule-speaker_name {
+  color: #008E7B;
+}
+.schedule-item-2 .schedule-speaker_social li a:hover {
+  color: #077869;
+}
+.schedule-item-2 .schedule-title {
+  color: #077869;
 }
 
 /*
@@ -574,7 +661,7 @@ ul li {
 }
 @media (min-width: 992px) {
   .schedule-box {
-    margin: 0;
+    margin: 0 0 60px;
   }
 
   .grid-item-md-6 {
@@ -671,7 +758,7 @@ ul li {
 .section-title {
   color: #111;
   font-size: 2em;
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Fugaz One', sans-serif;
 }
 
 .btn {
