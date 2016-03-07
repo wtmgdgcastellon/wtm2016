@@ -341,18 +341,30 @@ ul li {
 }
 .site-header .intro h2 {
   margin-top: 0px;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 300;
 }
 .site-header .intro h1 {
   margin-top: 0px;
-  font-size: 30px;
+  font-size: 50px;
   color: #00E7B5;
 }
 .site-header .intro p {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 10px;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .site-header .intro h2 {
+    font-size: 25px;
+  }
+  .site-header .intro h1 {
+    font-size: 32px;
+  }
+  .site-header .intro p {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -596,6 +608,10 @@ ul li {
   opacity: 0.8;
 }
 
+.intro h1{
+  font-size: 5em;
+}
+
 .img-responsive.center {
   margin: 0 auto;
 }
@@ -675,4 +691,8 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 0;
+}
+
+.mt3 {
+  margin-top: 3em;
 }
