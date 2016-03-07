@@ -375,9 +375,6 @@ ul li {
 .about .section-title {
   margin: 0 0 25px;
 }
-.about figure {
-  margin-bottom: 25px;
-}
 
 /*
  * 6.2 Section: Facts
@@ -615,6 +612,10 @@ ul li {
   color: #111;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .btn-light-blue {
   background-color: #41C4F9;
 }
@@ -665,4 +666,13 @@ ul li {
 
 .btn:hover {
   color: white;
+}
+
+#site-header {
+  background-image: url("../images/backgrounds/main.jpg");
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 0;
 }
