@@ -1,7 +1,8 @@
 /*
  * 1. Google Font
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Fugaz+One|Roboto:300,400,700);
+
 /*
  * 2.0 Global Style
  */
@@ -418,8 +419,7 @@ ul li {
  * 6.5 Section: Contribution
  */
 .contribution {
-  text-align: center;
-  color: #fff;
+
 }
 
 /*
@@ -614,24 +614,54 @@ ul li {
   color: #111;
 }
 
-.bg-light-blue {
+.btn-light-blue {
   background-color: #41C4F9;
 }
 
-.bg-dark-blue {
+.btn-dark-blue {
   background-color: #308AF6;
 }
 
+.bg-light-blue {
+  border-left:20px solid #41C4F9;
+  border-right:20px solid #41C4F9;
+  background-color: #f8f8f8;
+}
+
+.bg-dark-blue {
+   border-left:20px solid #308AF6;
+   border-right:20px solid #308AF6;
+   background-color: #f8f8f8;
+}
+
 .bg-light-green {
-  background-color: #00E7B5;
+   border-left:20px solid #00E7B5;
+   border-right:20px solid #00E7B5;
+   background-color: #f8f8f8;
 }
 
 .bg-dark-green {
-  background-color: #00BDA4;
+  border-left:20px solid#00BDA4;
+  border-right:20px solid#00BDA4;
+  background-color: #f8f8f8;
 }
 
 .panel {
     border: 0;
 }
 
+.section-title {
+  color: #111;
+  font-size: 2em;
+  font-family: 'Fugaz One', cursive;
+}
 
+.btn {
+  color: white;
+  font-weight: bold;
+  padding: 20px 28px;
+}
+
+.btn:hover {
+  color: white;
+}
