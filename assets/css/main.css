@@ -670,9 +670,9 @@ ul li {
 
 #site-header {
   background-image: url("../images/backgrounds/main.jpg");
-background-attachment: fixed;
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 0;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0;
 }
