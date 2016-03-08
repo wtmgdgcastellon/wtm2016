@@ -663,6 +663,10 @@ ul li {
   margin: 0 auto;
 }
 
+.navbar-custom .navbar-right {
+  margin-top: 15px;
+}
+
 .white {
   color: #fff;
 }
