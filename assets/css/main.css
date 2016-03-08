@@ -495,19 +495,15 @@ ul li {
   font-size: 16px;
 }
 .schedule-title {
-
   font-size: 25px;
   margin: 16px 0;
 }
-.schedule-description {
-  font-size: 14px;
-}
+
 .schedule-description p {
   margin: 0 0 10px;
 }
 
-
-*//*
+/*
  * 6.7 Section: Schedule
  */
 .partner {
@@ -515,13 +511,9 @@ ul li {
 }
 .partner .partner-box {
   display: block;
-  /*opacity: 0.8;*/
   height: 150px;
   width: 150px;
   margin: 25px auto;
-/*  -webkit-transition: 0.5s all linear;
-          transition: 0.5s all linear;
-*/
 }
 .partner .partner-box:hover {
   opacity: 1;
