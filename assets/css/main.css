@@ -435,8 +435,6 @@ ul li {
 }
 .schedule-left {
   position: relative;
-  background-color: #308AF6;
-  color: #fff;
   text-align: center;
   padding: 15px;
   margin: 25px 0 0;
@@ -449,18 +447,19 @@ ul li {
 }
 
 .schedule-time {
-  color: #2468B9;
   font-size: 25px;
   font-family: 'Fugaz One', sans-serif;
   position: absolute;
-  top: -20px;
+  top: -40px;
   left: 0px;
   right: 0px;
+
 }
+
 .schedule-speaker_photo {
   -webkit-filter: grayscale(100%) contrast(200%); /* Chrome, Safari, Opera */
   filter: grayscale(100%) contrast(200%);
-  opacity: 0.25;
+  opacity: 0.75;
   position: relative;
   left: 0;
   top: 0;
@@ -470,7 +469,7 @@ ul li {
 }
 .schedule-speaker_name {
   display: inline-block;
-  color: #2468B9;
+  /*color: #2468B9;*/
   font-family: 'Fugaz One', sans-serif;
   text-transform: uppercase;
   margin: 16px 0 0;
@@ -490,15 +489,14 @@ ul li {
   padding: 0 16px;
 }
 .schedule-speaker_social li a:hover {
-  color: #1C5393;
+  color: #111;
 }
 .schedule-speaker_social li a i {
   font-size: 16px;
 }
 .schedule-title {
-  color: #1C5393;
+
   font-size: 25px;
-  font-style: italic;
   margin: 16px 0;
 }
 .schedule-description {
@@ -509,38 +507,7 @@ ul li {
 }
 
 
-.schedule-left {
-  position: relative;
-  background-color: #308AF6;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  margin: 25px 0 0;
-}
-
-@media(min-width: 768px) {
-  .schedule-right {
-    padding-left: 45px;
-  }
-}
-
-.schedule-item-2 .schedule-left {
-  background-color: #00BDA4;
-}
-.schedule-item-2 .schedule-time {
-  color: #008E7B;
-}
-.schedule-item-2 .schedule-speaker_name {
-  color: #008E7B;
-}
-.schedule-item-2 .schedule-speaker_social li a:hover {
-  color: #077869;
-}
-.schedule-item-2 .schedule-title {
-  color: #077869;
-}
-
-/*
+*//*
  * 6.7 Section: Schedule
  */
 .partner {
@@ -729,26 +696,44 @@ ul li {
 }
 
 .bg-light-blue {
+  background-color: #41C4F9;
+}
+
+.bg-dark-blue {
+   background-color: #308AF6;
+}
+
+.bg-light-green {
+   background-color: #00E7B5;
+}
+
+.bg-dark-green {
+  background-color: #00BDA4;
+}
+
+
+
+.border-light-blue {
   border-left:20px solid #41C4F9;
   border-right:20px solid #41C4F9;
   background-color: #f8f8f8;
 }
 
-.bg-dark-blue {
+.border-dark-blue {
    border-left:20px solid #308AF6;
    border-right:20px solid #308AF6;
    background-color: #f8f8f8;
 }
 
-.bg-light-green {
+.border-light-green {
    border-left:20px solid #00E7B5;
    border-right:20px solid #00E7B5;
    background-color: #f8f8f8;
 }
 
-.bg-dark-green {
-  border-left:20px solid#00BDA4;
-  border-right:20px solid#00BDA4;
+.border-dark-green {
+  border-left:20px solid #00BDA4;
+  border-right:20px solid #00BDA4;
   background-color: #f8f8f8;
 }
 
@@ -781,6 +766,42 @@ ul li {
   padding-top: 0;
 }
 
-.mt3 {
-  margin-top: 3em;
+.dark-blue .schedule-left {
+  background-color: #308AF6;
+}
+
+.dark-blue .schedule-time,
+.dark-blue .schedule-speaker_name ,
+.dark-blue .schedule-title {
+  color: #308AF6;
+}
+
+.light-blue .schedule-left {
+  background-color: #41C4F9;
+}
+
+.light-blue .schedule-time,
+.light-blue .schedule-speaker_name ,
+.light-blue .schedule-title {
+  color: #41C4F9;
+}
+
+.light-green .schedule-left {
+  background-color: #00E7B5;
+}
+
+.light-green .schedule-time,
+.light-green .schedule-speaker_name ,
+.light-green .schedule-title {
+  color: #00E7B5;
+}
+
+.dark-green .schedule-left {
+  background-color: #00BDA4;
+}
+
+.dark-green .schedule-time,
+.dark-green .schedule-speaker_name ,
+.dark-green .schedule-title {
+  color: #00BDA4;
 }
