@@ -457,9 +457,9 @@ ul li {
 }
 
 .schedule-speaker_photo {
-  -webkit-filter: grayscale(100%) contrast(200%); /* Chrome, Safari, Opera */
-  filter: grayscale(100%) contrast(200%);
-  opacity: 0.75;
+  -webkit-filter: grayscale(100%) contrast(120%) brightness(200%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%) contrast(120%) brightness(200%);
+  opacity: 0.65;
   position: relative;
   left: 0;
   top: 0;
