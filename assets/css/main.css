@@ -106,9 +106,11 @@ ul li {
           transition-property: transform;
 }
 .btn:hover {
-  -webkit-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-          transform: scale(0.9);
+  color: black;
+   -webkit-transition:color 0.3s ease-in;
+   -moz-transition:color 0.3s ease-in;
+   -o-transition:color 0.3s ease-in;
+   transition:color 0.3s ease-in;
 }
 
 .form-control {
@@ -750,9 +752,7 @@ ul li {
   padding: 20px 28px;
 }
 
-.btn:hover {
-  color: white;
-}
+
 
 #site-header {
   background-image: url("../images/backgrounds/main.jpg");
