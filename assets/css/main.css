@@ -546,6 +546,10 @@ ul li {
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
+.partner .media-box-1 {
+  background: url(../images/partner/media-1-espaitec.png) no-repeat center center/contain;
+}
+
 /*
  * 6.8 Section: FAQ
  */
@@ -801,4 +805,9 @@ ul li {
 .dark-green .schedule-speaker_name ,
 .dark-green .schedule-title {
   color: #00BDA4;
+}
+
+.h4 {
+  font-size: 1.5em;
+  margin: 0;
 }
